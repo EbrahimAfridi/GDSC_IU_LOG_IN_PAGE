@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  padding: 10px;
+  margin: 10px;
+  font-family: Arial,sans-serif;
+}
+
+img{
+  margin-left: 35%;
+}
+
+#logoName{
+    margin-left: 43%;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+input{
+  width: 50%;
+  height: 50px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  font-size: 17px;
+  margin-left: 23%;
+  text-indent: 10px;
+}
+
+::placeholder{
+  font-size: 15px;
+}
+
+.forgotPara{
+  margin-left: 38%;
+  font-size: 20px;
+  color: #888888;
+}
+
+a{
+  color: blue;
+  text-decoration: none;
+}
+
+a:active{
+  color: black;
+}
+
+button{
+  display: block;
+  margin-left: 40%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: 55px;
+  width: 200px;
+  font-size: 25px;
+  background-color: rgba(4,109,250,0.84);
+  border-style: none;
+  border-radius: 8px;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+button:hover{
+  cursor: pointer;
+  box-shadow: 8px 8px 10px rgba(138, 153, 171, 0.84);
+}
+
+button:active{
+  cursor: pointer;
+  opacity: 80%;
+}
